@@ -1,10 +1,10 @@
 body {
-  background-color: #ffcce4;
+background-image: url(https://kartinkinaden.ru/uploads/posts/2020-07/1595770772_31-p-belie-foni-s-serdechkami-36.jpg);
 }
 
 h1 {
   font: 40pt Times;
-  color: red;
+  color: indigo;
   text-align: center;
   border-top: 4px dotted  black;
   border-bottom: 4px dotted black;
@@ -17,6 +17,7 @@ h1 {
   font: 25pt Comic Sans MS;
   margin-right: 150px;
   margin-bottom: auto;
+  color: #9896F1;
 }
 .clear{
   clear: both;
@@ -38,17 +39,27 @@ h1 {
 .fadein img:nth-child(4) { animation-delay: 9s; }
 
 span{
-  color: blue;
+  color: violet;
 }
+
+
+.why{
+font: 25pt Comic Sans MS;
+text-align: center;
+color: #590D82;
+}
+
 
 .textcols {
 	display: table;
 	width: 200px;
 	border-collapse: collapse;
+  margin-left: 50%;
+  margin-top: 50px;
 
 }
 .textcols-row {
-	 display: block;
+	 display: table-row;
 }
 .textcols-item {
 	display: table-cell;
@@ -56,14 +67,94 @@ span{
 	vertical-align: top;
 	padding: 0;
 
+
 }
 .textcols-row .textcols-item:first-child {
 	border-right: 30px ;
   font: 25pt Comic Sans MS;
   margin-left: 200px;
+  color: #5350B9;
 }
 .textcols-row .textcols-item:last-child {
 	border-left: 30px ;
   font: 25pt Comic Sans MS;
   margin-left: 200px;
+  color: violet;
+
+
+}
+
+
+
+.textcols2 {
+	display: table;
+	width: 200px;
+	border-collapse: collapse;
+  margin-left: 20%;
+  margin-top: 30px;
+
+}
+.textcols-row2 {
+	 display: table-row;
+}
+.textcols-item2 {
+	display: table-cell;
+	width: 50%;
+	vertical-align: top;
+	padding: 0;
+
+
+}
+.textcols-row2 .textcols-item2:first-child {
+	border-right: 30px ;
+  font: 25pt Comic Sans MS;
+  margin-left: 200px;
+    color: #5350B9;
+}
+.textcols-row2 .textcols-item2:last-child {
+	border-left: 30px ;
+  font: 25pt Comic Sans MS;
+  margin-left: 200px;  color: #5350B9;
+
+}
+
+
+
+.textcols3 {
+	display: table;
+	width: 200px;
+	border-collapse: collapse;
+  margin-left: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.textcols-row3 {
+	 display: table-row;
+}
+.textcols-item3 {
+	display: table-cell;
+	width: 50%;
+	vertical-align: top;
+	padding: 0;
+
+
+}
+.textcols-row3 .textcols-item3:first-child {
+	border-right: 30px ;  color: #5350B9;
+  font: 25pt Comic Sans MS;
+  margin-left: 200px;
+}
+.textcols-row3 .textcols-item3:last-child {
+	border-left: 30px ;
+  font: 25pt Comic Sans MS;
+  margin-left: 200px;  color: #5350B9;
+
+}
+
+#com {
+  font: 15pt Comic Sans MS;
+  color: #3E3C96;
+}
+#submit{
+  color: violet;
 }
